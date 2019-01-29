@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  color: #555555;
+  font-family: sans-serif;
+}
+
+.banner {
+  background-color: #0070cd;
+  color: yellow;
+  height: 35px;
+
+  span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 0.8em;
+  }
+}
+
+
+nav {
+  background-color: #f2f2f2;
+  height: 38px;
+}
+.stores {
+  list-style: none;
+  max-width: 400px;
+  margin: 0;
+
+  li {
+    display: inline-block;
+    height: 38px;
+    border-left: 0.5px rgba(1,1,1,0.2) solid;
+    // get rid of default 4px between ul list items
+    float: left;
+    width: 30%;
+  }
+
+  .carters-logo {
+    background-color: white;
+  }
+  img {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    padding-top: 5px;
+    margin: auto;
+  }
+}

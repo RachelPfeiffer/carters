@@ -1,0 +1,24 @@
+{
+  "name": "carters",
+  "version": "1.0.0",
+  "description": "one day project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachelPfeiffer/carters.git"
+  },
+  "author": "Rachel Pfeiffer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RachelPfeiffer/carters/issues"
+  },
+  "homepage": "https://github.com/RachelPfeiffer/carters#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
