@@ -64,8 +64,12 @@ nav {
     img {
       max-width: 100%;
       max-height: 100%;
-      width: 15px;
+      width: 20px;
       display: inline-block;
+    }
+
+    .down {
+      width: 9px;
     }
   }
 }
@@ -76,8 +80,54 @@ nav {
 }
 
 .main-logo {
-  width: 30%;
+  width: 220px;
+  margin: 0 auto;
 }
 
 .main-header {
+  display: inline-block;
+  margin: 2em;
+  text-align: center;
+  width: 95%;
+}
+
+.flag {
+  float: left;
+  height: 35px;
+  margin-top: 1em;
+}
+
+.search {
+  float: right;
+  margin-top: 1em;
+  line-height: 35px;
+}
+
+.sizes {
+  ul {
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 2em;
+
+    h6 {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    span {
+      font-size: 0.8em;
+    }
+
+    .new {
+      color: orange;
+      font-size: 0.6em;
+    }
+  }
 }
